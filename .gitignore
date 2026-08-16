@@ -1,0 +1,28 @@
+# 数据（原始 proteome CSV 约 300MB，不入库）
+dataset/
+cache/
+
+# 模型权重与预测结果（.pt 约 33MB/个，prediction.csv 约 180MB）
+output/
+models/
+*.pt
+*.pth
+prediction*.csv
+
+# 日志
+logs/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

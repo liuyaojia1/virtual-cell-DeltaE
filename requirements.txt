@@ -1,0 +1,7 @@
+numpy>=1.24
+pandas>=2.0
+torch>=2.0
+
+# 可选：化合物特征
+# rdkit          # Morgan 指纹（stage4_exp 的 use_rdkit 选项）
+# unimol-tools   # Uni-Mol 分子表征（build_unimol.py，默认启用）
